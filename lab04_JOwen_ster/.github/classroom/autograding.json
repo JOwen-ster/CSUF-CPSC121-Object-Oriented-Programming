@@ -1,0 +1,64 @@
+{
+  "tests": [
+    {
+      "name": "Verify implementation of prob01",
+      "setup": "",
+      "run": "cd prob01 && make build",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Verify implementation of prob02",
+      "setup": "",
+      "run": "cd prob02 && make build",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Check readability of prob01",
+      "setup": "",
+      "run": "cd prob01 && make clean && make stylecheck && make formatcheck",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Check readability of prob02",
+      "setup": "",
+      "run": "cd prob02 && make clean && make stylecheck && make formatcheck",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Prob01 Creates a Bubble Image From User Input",
+      "setup": "",
+      "run": "cd prob01 && make clean && make test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 2
+    },
+    {
+      "name": "Prob02 all tests",
+      "setup": "",
+      "run": "cd prob02 && make clean && make test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 12
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "Computes Taxes 1",
+      "setup": "make build",
+      "run": "./main",
+      "input": "10.00 9",
+      "output": "Taxes: $0.75",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 1
+    },
+    {
+      "name": "Check readability",
+      "setup": "",
+      "run": "make stylecheck && make formatcheck",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "All unit tests",
+      "setup": "make build",
+      "run": "make test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Computes Taxes 2",
+      "setup": "make build",
+      "run": "./main",
+      "input": "34.80 9",
+      "output": "Taxes: $2.61",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 1
+    },
+    {
+      "name": "Zero tip",
+      "setup": "make build",
+      "run": "./main",
+      "input": "27.50 0",
+      "output": "Tip: $0.00",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 1
+    },
+    {
+      "name": "15 percent tip",
+      "setup": "make build",
+      "run": "./main",
+      "input": "54.58 15",
+      "output": "Tip: $8.19",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Verify implementation",
+      "setup": "",
+      "run": "make build",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="10" failures="0" disabled="0" errors="0" time="0.01" timestamp="2022-09-28T04:53:22.968" name="AllTests">
+  <testsuite name="RobotTest" tests="10" failures="0" disabled="0" skipped="0" errors="0" time="0.009" timestamp="2022-09-28T04:53:22.969">
+    <testcase name="GetsAndSetsPosition" file="../settings/unittest.cc" line="30" status="run" result="completed" time="0" timestamp="2022-09-28T04:53:22.969" classname="RobotTest" />
+    <testcase name="Draws1x1IconAtTopLeft" file="../settings/unittest.cc" line="45" status="run" result="completed" time="0.001" timestamp="2022-09-28T04:53:22.970" classname="RobotTest" />
+    <testcase name="Draws1x1IconAtBottomRight" file="../settings/unittest.cc" line="61" status="run" result="completed" time="0" timestamp="2022-09-28T04:53:22.972" classname="RobotTest" />
+    <testcase name="AlternatesIcons" file="../settings/unittest.cc" line="77" status="run" result="completed" time="0.001" timestamp="2022-09-28T04:53:22.973" classname="RobotTest" />
+    <testcase name="AlternatesIconsHundredsOfTimes" file="../settings/unittest.cc" line="113" status="run" result="completed" time="0.001" timestamp="2022-09-28T04:53:22.974" classname="RobotTest" />
+    <testcase name="Draws3x3PixelIconCentered" file="../settings/unittest.cc" line="132" status="run" result="completed" time="0.001" timestamp="2022-09-28T04:53:22.975" classname="RobotTest" />
+    <testcase name="IconWithMultipleColors" file="../settings/unittest.cc" line="149" status="run" result="completed" time="0" timestamp="2022-09-28T04:53:22.977" classname="RobotTest" />
+    <testcase name="DrawsPartiallyOffscreenIcon" file="../settings/unittest.cc" line="175" status="run" result="completed" time="0" timestamp="2022-09-28T04:53:22.977" classname="RobotTest" />
+    <testcase name="DoesNotDrawIconOffscreen" file="../settings/unittest.cc" line="192" status="run" result="completed" time="0" timestamp="2022-09-28T04:53:22.978" classname="RobotTest" />
+    <testcase name="ConstructorDoesNotDoWork" file="../settings/unittest.cc" line="218" status="run" result="completed" time="0" timestamp="2022-09-28T04:53:22.979" classname="RobotTest" />
+  </testsuite>
+</testsuites>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="10" failures="0" disabled="0" errors="0" time="0.048" timestamp="2022-09-07T02:41:09.139" name="AllTests">
+  <testsuite name="UserInput" tests="3" failures="0" disabled="0" skipped="0" errors="0" time="0.014" timestamp="2022-09-07T02:41:09.139">
+    <testcase name="AskHourlyWageAndHoursWorked" file="test/unittest.cpp" line="7" status="run" result="completed" time="0.006" timestamp="2022-09-07T02:41:09.139" classname="UserInput" />
+    <testcase name="NegativeHourlyWage" file="test/unittest.cpp" line="13" status="run" result="completed" time="0.004" timestamp="2022-09-07T02:41:09.146" classname="UserInput" />
+    <testcase name="NegativeHoursWorked" file="test/unittest.cpp" line="19" status="run" result="completed" time="0.004" timestamp="2022-09-07T02:41:09.150" classname="UserInput" />
+  </testsuite>
+  <testsuite name="Salary" tests="7" failures="0" disabled="0" skipped="0" errors="0" time="0.033" timestamp="2022-09-07T02:41:09.154">
+    <testcase name="FourtyhrsOrLess" file="test/unittest.cpp" line="25" status="run" result="completed" time="0.004" timestamp="2022-09-07T02:41:09.154" classname="Salary" />
+    <testcase name="FourtyhrsEdge" file="test/unittest.cpp" line="31" status="run" result="completed" time="0.004" timestamp="2022-09-07T02:41:09.159" classname="Salary" />
+    <testcase name="SixtyFivehrsOrLess" file="test/unittest.cpp" line="37" status="run" result="completed" time="0.004" timestamp="2022-09-07T02:41:09.163" classname="Salary" />
+    <testcase name="SixtyFivehrsOrLessEdge1" file="test/unittest.cpp" line="43" status="run" result="completed" time="0.004" timestamp="2022-09-07T02:41:09.168" classname="Salary" />
+    <testcase name="SixtyFivehrsOrLessEdge2" file="test/unittest.cpp" line="49" status="run" result="completed" time="0.004" timestamp="2022-09-07T02:41:09.172" classname="Salary" />
+    <testcase name="OverSixtyFiveHrs" file="test/unittest.cpp" line="55" status="run" result="completed" time="0.004" timestamp="2022-09-07T02:41:09.177" classname="Salary" />
+    <testcase name="OverSixtyFiveHrsEdge" file="test/unittest.cpp" line="61" status="run" result="completed" time="0.005" timestamp="2022-09-07T02:41:09.182" classname="Salary" />
+  </testsuite>
+</testsuites>

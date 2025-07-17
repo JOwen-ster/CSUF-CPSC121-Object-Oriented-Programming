@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="13" failures="0" disabled="0" errors="0" time="0.022" timestamp="2022-10-23T05:47:34.390" name="AllTests">
+  <testsuite name="Breed" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2022-10-23T05:47:34.390">
+    <testcase name="PublicMethodsPresent" status="run" result="completed" time="0" timestamp="2022-10-23T05:47:34.390" classname="Breed" />
+    <testcase name="DefaultConstructor" status="run" result="completed" time="0" timestamp="2022-10-23T05:47:34.390" classname="Breed" />
+    <testcase name="NonDefaultConstructor" status="run" result="completed" time="0" timestamp="2022-10-23T05:47:34.390" classname="Breed" />
+    <testcase name="AccessorsAndMutators" status="run" result="completed" time="0" timestamp="2022-10-23T05:47:34.390" classname="Breed" />
+  </testsuite>
+  <testsuite name="Pet" tests="7" failures="0" disabled="0" skipped="0" errors="0" time="0" timestamp="2022-10-23T05:47:34.390">
+    <testcase name="PublicMethodsPresent" status="run" result="completed" time="0" timestamp="2022-10-23T05:47:34.390" classname="Pet" />
+    <testcase name="DefaultConstructor" status="run" result="completed" time="0" timestamp="2022-10-23T05:47:34.390" classname="Pet" />
+    <testcase name="NonDefaultConstructorBreedParameter" status="run" result="completed" time="0" timestamp="2022-10-23T05:47:34.390" classname="Pet" />
+    <testcase name="NonDefaultConstructorExpandedBreedParameter" status="run" result="completed" time="0" timestamp="2022-10-23T05:47:34.390" classname="Pet" />
+    <testcase name="AccessorsAndMutators" status="run" result="completed" time="0" timestamp="2022-10-23T05:47:34.390" classname="Pet" />
+    <testcase name="SetBreedOverload" status="run" result="completed" time="0" timestamp="2022-10-23T05:47:34.390" classname="Pet" />
+    <testcase name="Print" status="run" result="completed" time="0" timestamp="2022-10-23T05:47:34.390" classname="Pet" />
+  </testsuite>
+  <testsuite name="Driver" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.022" timestamp="2022-10-23T05:47:34.390">
+    <testcase name="Input" status="run" result="completed" time="0.002" timestamp="2022-10-23T05:47:34.390" classname="Driver" />
+    <testcase name="Output" status="run" result="completed" time="0.019" timestamp="2022-10-23T05:47:34.393" classname="Driver" />
+  </testsuite>
+</testsuites>

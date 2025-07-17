@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="2" failures="0" disabled="0" errors="0" time="0.369" timestamp="2022-09-13T17:03:30.967" name="AllTests">
+  <testsuite name="BubbleImageTest" tests="2" failures="0" disabled="0" skipped="0" errors="0" time="0.367" timestamp="2022-09-13T17:03:30.967">
+    <testcase name="ExecutesAndExits" file="../settings/unittest.cc" line="36" status="run" result="completed" time="0.019" timestamp="2022-09-13T17:03:30.967" classname="BubbleImageTest" />
+    <testcase name="CreatesSimpleBubble" file="../settings/unittest.cc" line="41" status="run" result="completed" time="0.347" timestamp="2022-09-13T17:03:30.987" classname="BubbleImageTest" />
+  </testsuite>
+</testsuites>

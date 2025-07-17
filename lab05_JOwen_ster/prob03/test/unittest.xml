@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="6" failures="0" disabled="0" errors="0" time="0.102" timestamp="2022-09-21T02:02:03.844" name="AllTests">
+  <testsuite name="SentenceAnalysisTest" tests="6" failures="0" disabled="0" skipped="0" errors="0" time="0.102" timestamp="2022-09-21T02:02:03.844">
+    <testcase name="ExecutesAndExits" file="test/unittest.cpp" line="8" status="run" result="completed" time="0.017" timestamp="2022-09-21T02:02:03.844" classname="SentenceAnalysisTest" />
+    <testcase name="PromptsForCharacter" file="test/unittest.cpp" line="14" status="run" result="completed" time="0.009" timestamp="2022-09-21T02:02:03.862" classname="SentenceAnalysisTest" />
+    <testcase name="SingleLetter" file="test/unittest.cpp" line="25" status="run" result="completed" time="0.036" timestamp="2022-09-21T02:02:03.871" classname="SentenceAnalysisTest" />
+    <testcase name="SingleLetterMissing" file="test/unittest.cpp" line="35" status="run" result="completed" time="0.009" timestamp="2022-09-21T02:02:03.907" classname="SentenceAnalysisTest" />
+    <testcase name="MultipleLetters" file="test/unittest.cpp" line="45" status="run" result="completed" time="0.017" timestamp="2022-09-21T02:02:03.917" classname="SentenceAnalysisTest" />
+    <testcase name="InterestingSentence" file="test/unittest.cpp" line="56" status="run" result="completed" time="0.011" timestamp="2022-09-21T02:02:03.934" classname="SentenceAnalysisTest" />
+  </testsuite>
+</testsuites>

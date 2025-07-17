@@ -1,0 +1,244 @@
+{
+  "tests": [
+    {
+      "name": "Verify implementation of prob01",
+      "setup": "",
+      "run": "cd prob01 && make build",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Verify implementation of prob02",
+      "setup": "",
+      "run": "cd prob02 && make build",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Check readability of prob01",
+      "setup": "",
+      "run": "cd prob01 && make stylecheck && make formatcheck",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Check readability of prob02",
+      "setup": "",
+      "run": "cd prob01 && make stylecheck && make formatcheck",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Prob01 72 is TallEnough",
+      "setup": "",
+      "run": "cd prob01 && make build && ./main",
+      "input": "72\r\n",
+      "output": "Congratulations",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Prob01 55 is TallEnough",
+      "setup": "",
+      "run": "cd prob01 && make build && ./main",
+      "input": "55\r\n",
+      "output": "Congratulations",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Prob01 30 is NotTallEnough",
+      "setup": "",
+      "run": "cd prob01 && make build && ./main",
+      "input": "30\r\n",
+      "output": "Unfortunately",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Prob01 54 is NotTallEnough",
+      "setup": "",
+      "run": "cd prob01 && make build && ./main",
+      "input": "54\r\n",
+      "output": "Unfortunately",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Prob01 All Tests",
+      "setup": "",
+      "run": "cd prob01 && make test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Prob02 500 is Ineligible",
+      "setup": "",
+      "run": "cd prob02 && make build && ./main",
+      "input": "500\r\n",
+      "output": "(.*(((i|I)neligible)|cannot|not|can't).*)",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Prob02 0 is Ineligible",
+      "setup": "",
+      "run": "cd prob02 && make build && ./main",
+      "input": "0\r\n",
+      "output": "(.*(((i|I)neligible)|cannot|not|can't).*)",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Prob02 579 is Ineligible",
+      "setup": "",
+      "run": "cd prob02 && make build && ./main",
+      "input": "579\r\n",
+      "output": "(.*(((i|I)neligible)|cannot|not|can't).*)",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Prob02 600 Approved for Silver",
+      "setup": "",
+      "run": "cd prob02 && make build && ./main",
+      "input": "600",
+      "output": "Silver",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Prob02 580 Approved for Silver",
+      "setup": "",
+      "run": "cd prob02 && make build && ./main",
+      "input": "580\r\n",
+      "output": "Silver",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Prob02 669 Approved for Silver",
+      "setup": "",
+      "run": "cd prob02 && make build && ./main",
+      "input": "669\r\n",
+      "output": "Silver",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Prob02 680 Approved for Gold",
+      "setup": "",
+      "run": "cd prob02 && make build && ./main",
+      "input": "680\r\n",
+      "output": "Gold",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Prob02 670 Approved for Gold",
+      "setup": "",
+      "run": "cd prob02 && make build && ./main",
+      "input": "670\r\n",
+      "output": "Gold",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Prob02 799 Approved for Gold",
+      "setup": "",
+      "run": "cd prob02 && make build && ./main",
+      "input": "799\r\n",
+      "output": "Gold",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Prob02 820 Approved for Platinum",
+      "setup": "",
+      "run": "cd prob02 && make build && ./main",
+      "input": "820\r\n",
+      "output": "Platinum",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Prob02 800 Approved for Platinum",
+      "setup": "",
+      "run": "cd prob02 && make build && ./main",
+      "input": "800\r\n",
+      "output": "Platinum",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Prob02 850 Approved for Platinum",
+      "setup": "",
+      "run": "cd prob02 && make build && ./main",
+      "input": "850\r\n",
+      "output": "Platinum",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Prob02 Negative score is invalid",
+      "setup": "",
+      "run": "cd prob02 && make build && ./main",
+      "input": "-100",
+      "output": "(.*((i|I)nvalid).*)",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Prob02 1000 is invalid",
+      "setup": "",
+      "run": "cd prob02 && make build && ./main",
+      "input": "1000\r\n",
+      "output": "(.*((i|I)nvalid).*)",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Prob02 All Tests",
+      "setup": "",
+      "run": "cd prob02 && make test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}
